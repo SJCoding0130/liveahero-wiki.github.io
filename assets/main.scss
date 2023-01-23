@@ -366,6 +366,18 @@ figcaption {
     width: 100%;
   }
 }
+.save-img {
+  display: none;
+  position: absolute;
+  top: 5px;
+  left: 3px;
+}
+.atlas-hover {
+  position: relative;
+}
+.atlas-hover:hover .save-img {
+  display: block;
+}
 @media (min-width: 1064px) {
   .atlas-gallery {
     img, canvas {
